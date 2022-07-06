@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/ride_item_bg"
+    android:layout_height="wrap_content">
+    <ImageView
+
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/ride_item_bg"
+        android:layout_margin="27dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        >
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="city"/>
+        <TextView
+            android:gravity="right"
+            android:id="@+id/state"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="state"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rideID"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Ride Id:"/>
+    <TextView
+        android:id="@+id/originStn"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Origin Station:"/>
+    <TextView
+        android:id="@+id/station_path"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="station_path:"/>
+    <TextView
+        android:id="@+id/Date"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Date: "/>
+    <TextView
+        android:id="@+id/Distance"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Distance:"/>
+
+
+</LinearLayout>
